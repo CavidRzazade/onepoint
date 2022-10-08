@@ -30,12 +30,12 @@ header{
 
 header ul{
     display: flex; 
+
 }
 
 
 
 header ul li a{
-    margin-left: 15px;
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -49,11 +49,367 @@ header ul li a:hover{
 
 .social ul li a i{
     font-size: 30px;
+    width: 25px;
+    height: 25px;
+    background-color: black;
 }
 
 header ul li{
     margin: 15px;
+    padding: 5px;
 }
+
+#introduction{
+    background-image: url(..//image/bg-picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.6;
+    position: relative;
+}
+
+.form{
+    position: absolute;
+    border: none;
+    top: 150px;
+    width: 340px;
+    left: 75px;
+    height: 485px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
+.form h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.group input{
+    border: none;
+    padding-left: 125px;
+    margin: 20px;
+    border-bottom: 1px solid gray;
+    color: gray;
+    outline: none;
+}
+
+.button input{
+    background-color: rgb(250,200,25);
+    padding: 15px 30px;
+    margin: 25 104px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+
+.heading{
+    border: solid 1px black;
+    width: 495px;
+    right: 200px;
+    height: 170px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 220px;
+    text-align: center;
+    border: none;
+}
+
+
+.heading h1{
+    font-size: 40px;
+}
+
+.heading .line{
+    height: 5px;
+    width: 100px;
+    background: #fac819;
+    margin: 20px auto 25px;
+}
+
+.heading p{
+    color: #555;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+
+.advantages h2{
+    margin: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+
+}
+
+.advantages .line{
+    height: 5px;
+    width: 100px;
+    background: #fac819;
+    margin: 20px auto 25px;
+}
+
+
+.advantages-card{
+    width: 1200px;
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-around;
+    
+}
+
+.advantages-card .card{
+    width: 230px;
+    height: 240px;
+    margin-left: 20px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.advantages-card .card p{
+    color: #555;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.advantages-card .card .icon{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, rgba(250, 200, 25, .3), transparent);
+    transform: rotate(45deg);
+    border-radius: 20px;
+    color: rgb(250,200,25);
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.advantages-card .card .icon i{
+    font-size: 45px;
+    padding: 20px;
+    transform: rotate(-45deg);
+}
+
+
+.how-work-onepoint{
+    width: 100%;
+    height: 500px;
+    background-color:  rgb(15,25,35);
+    margin-top: 155px;
+    position: relative;
+    
+}
+
+.how-work-onepoint-left{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 80px;
+    padding-top: 150px;
+}
+
+.how-work-onepoint-left .line{
+    height: 5px;
+    width: 100px;
+    background: #fac819;
+    margin: 20px auto 25px 98px;
+}
+
+.how-work-onepoint-left h2{
+    font-size: 35px;
+    margin-right: 960px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.how-work-onepoint-left p{
+    text-align: center;
+    margin-right: 960px;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+.video img{
+    position: absolute;
+    width: 575px;
+    height: 300px;
+    top: 1390px;
+    left: 660px;
+    opacity: 0.6;
+    border: 3px solid white;
+}
+
+
+.play-button i{
+    position: absolute;
+    font-size: 80px;
+    background: radial-gradient( rgba(250, 200, 25, 0.8) 60%, rgba(255, 255, 255, 0) 62%);
+    box-shadow: 0 0 25px 3px rgb(250, 201, 25);
+    left: 915px;
+    top: 1500px;
+    color: white;
+}
+
+.partners{
+    margin: 80px 110px;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.partners .line{
+
+    height: 5px;
+    width: 100px;
+    background: #fac819;
+    margin: 20px 73px;
+
+}
+
+
+
+
+.partners h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.partners p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+
+
+
+
+.partners .partner-top{
+    margin-top: -240px;
+    margin-left: 450px;
+}
+
+.partners .partner-bottom{
+    margin-top: 50px;
+    margin-left: 458px;
+}
+
+
+
+.partner-top ul li img{
+    width: 150px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+.partner-top ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.partner-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+}
+
+
+.partner-bottom ul li img{
+    width: 150px;
+    height: 50px;
+    margin-left: 115px;
+}
+
+
+
+.footer-nav{
+    width: 100%;
+    height: 400px;
+    background-color:  rgb(15,25,35);
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer ul li a:hover{
+    color: #fac819;
+}
+
+
+
+
+    
+
+.social-box a {
+    color: #d0d0d0;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.social-box a i{
+    margin-top: 25px;
+    color: #d0d0d0;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+.social-box{
+    text-align: center;
+}
+
+
+
+
+.line-top{
+    height: 1px;
+    width: 100px;
+    background: #d0d0d0;
+    margin: 20px 73px;
+}
+
+
+.line-bottom{
+    height: 1px;
+    width: 100px;
+    background: #d0d0d0;
+    margin: 20px 73px;
+}
+
+
+.copy{
+    position: absolute;
+    left: 575px;
+    bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
